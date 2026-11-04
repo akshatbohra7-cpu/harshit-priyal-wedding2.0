@@ -316,6 +316,16 @@ footer .cmp{margin-top:18px;font-size:15px;opacity:.8;line-height:1.7}
 #fam summary::after{content:" ▾";color:var(--gold)}
 #fam h4{margin:20px 0 4px;font-size:13px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold)}
 #fam p{font-size:18px;margin:2px 0;color:var(--ink)}
+
+/* hero arch: everything scales with the arch so names never clip */
+.arch{container-type:inline-size;width:min(86vw,380px,calc(60dvh*.78))}
+.fill{padding-top:20%;padding-left:6%;padding-right:6%}
+.nm{width:100%}
+.nm .script{font-size:16.5cqw;line-height:1.12;padding:0;white-space:nowrap}
+.nm i{font-size:7cqw;margin:0}
+.nm .dt{margin-top:5cqw;padding:2.2cqw 4cqw;font-size:3.9cqw;letter-spacing:.16em;text-indent:.16em;white-space:nowrap}
+.nm .dy{font-size:3.4cqw;letter-spacing:.22em;text-indent:.22em;margin-top:2.2cqw;white-space:nowrap}
+.hero .loc{font-size:clamp(13px,3.6vw,16px)}
 </style>
 </head>
 <body class="lock">
@@ -442,7 +452,7 @@ footer .cmp{margin-top:18px;font-size:15px;opacity:.8;line-height:1.7}
           <span class="script rasp">Harshit</span>
           <i>&amp;</i>
           <span class="script rasp">Priyal</span>
-          <div class="dt" style="letter-spacing:.2em;text-indent:.2em;font-size:16px">20 &amp; 21 . 11 . 2026</div>
+          <div class="dt">20 &amp; 21 . 11 . 2026</div>
           <div class="dy">Friday &amp; Saturday</div>
         </div>
       </div>
