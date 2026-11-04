@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harshit & Priyal | 20 & 21 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Pinyon+Script&family=Noto+Serif+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf1e4;--bg2:#f6e4d4;--ink:#4a1d24;--soft:#7a4a4f;--gold:#b8863b;--rose:#c9707a;--card:#fffaf3;--line:#e3c9a4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2a0f14;--bg2:#3a161d;--ink:#f6e4d4;--soft:#d9b9a8;--gold:#e0b25f;--rose:#e58b95;--card:#35141b;--line:#6b4a3a}}
+:root[data-theme="dark"]{--bg:#2a0f14;--bg2:#3a161d;--ink:#f6e4d4;--soft:#d9b9a8;--gold:#e0b25f;--rose:#e58b95;--card:#35141b;--line:#6b4a3a}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:19px;text-align:center;overflow-x:hidden}
+.script{font-family:'Pinyon Script','Snell Roundhand',cursive;font-weight:400;color:var(--gold)}
+.hi{font-family:'Noto Serif Devanagari',serif;color:var(--rose);font-size:1.05rem;line-height:2}
+section{padding:72px 22px;max-width:560px;margin:auto}
+h2{font-family:'Pinyon Script',cursive;font-weight:400;font-size:2.6rem;color:var(--gold);margin:0 0 18px}
+small,.cap{letter-spacing:.22em;text-transform:uppercase;font-size:.72rem;color:var(--soft)}
+.orn{height:14px;margin:18px auto;max-width:220px;background:linear-gradient(90deg,transparent,var(--gold),transparent);-webkit-mask:radial-gradient(circle 5px at 50% 50%,transparent 98%,#000) ;opacity:.7;height:1px}
+.rv{opacity:0;transform:translateY(26px);transition:.9s cubic-bezier(.2,.7,.2,1)}.rv.in{opacity:1;transform:none}
+/* cover */
+#cover{position:fixed;inset:0;z-index:50;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 30%,var(--bg2),var(--bg));cursor:pointer;transition:transform 1.2s cubic-bezier(.7,0,.2,1),opacity 1s;border:10px double var(--line)}
+#cover.open{transform:translateY(-105%);opacity:.4;pointer-events:none}
+#cover .names{font-size:clamp(3rem,15vw,5rem);line-height:1}
+.seal{width:84px;height:84px;border-radius:50%;margin:26px auto 12px;background:radial-gradient(circle at 35% 30%,#e58b95,#9b2f3f);display:grid;place-items:center;color:#fde9c8;font-family:'Pinyon Script';font-size:2rem;box-shadow:0 8px 22px #0004,inset 0 0 0 4px #ffffff22;animation:pulse 2.4s infinite}
+@keyframes pulse{50%{transform:scale(1.07)}}
+/* hero */
+#hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;max-width:none;background:linear-gradient(180deg,var(--bg2),var(--bg));position:relative}
+#hero .big{font-size:clamp(3.4rem,17vw,6.4rem);line-height:.95}
+#hero .amp{font-size:1.6rem;color:var(--rose);display:block;margin:6px 0}
+.date{font-size:1.5rem;letter-spacing:.18em;margin-top:22px}
+.petal{position:absolute;top:-20px;width:10px;height:14px;border-radius:70% 0 70% 0;background:var(--rose);opacity:.55;animation:fall linear infinite}
+@keyframes fall{to{transform:translateY(110vh) rotate(360deg)}}
+/* cards */
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 18px;margin:14px 0;box-shadow:0 6px 24px #0000000d}
+.card h3{margin:0 0 6px;font-weight:600;font-size:1.35rem}
+.who{font-size:2.6rem;margin:10px 0 0}.sub{color:var(--soft);font-size:.95rem;letter-spacing:.08em;text-transform:uppercase}
+.ev{display:flex;gap:14px;align-items:center;text-align:left;padding:14px 4px;border-bottom:1px dashed var(--line)}
+.ev:last-child{border:0}.ev time{min-width:92px;color:var(--gold);font-weight:600;font-size:1.05rem}.ev b{font-size:1.2rem;font-weight:600}.ev i{display:block;color:var(--soft);font-size:.9rem}
+.day{font-size:.8rem;letter-spacing:.25em;text-transform:uppercase;color:var(--rose);margin:26px 0 4px}
+/* scratch */
+.scratch{position:relative;width:260px;height:240px;margin:20px auto}
+.scratch canvas,.scratch .under{position:absolute;inset:0;width:100%;height:100%}
+.under{display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:1.3rem;clip-path:path('M130 225 C20 140 10 70 70 40 C100 25 120 40 130 60 C140 40 160 25 190 40 C250 70 240 140 130 225Z');background:var(--card)}
+.under .script{font-size:2.4rem}
+.cd{display:flex;justify-content:center;gap:10px;margin-top:20px}.cd div{min-width:68px;padding:12px 4px;border:1px solid var(--line);border-radius:12px;background:var(--card)}.cd b{display:block;font-size:1.8rem;color:var(--gold)}
+/* buttons / details */
+.btn{display:inline-block;margin-top:14px;padding:12px 26px;border-radius:40px;background:var(--gold);color:#fff;text-decoration:none;letter-spacing:.14em;font-size:.8rem;text-transform:uppercase}
+.btn.o{background:none;border:1px solid var(--gold);color:var(--gold)}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:12px 0;padding:14px 18px;text-align:center}
+summary{cursor:pointer;font-size:1.25rem;font-weight:600;color:var(--gold)}
+details h4{margin:20px 0 4px;font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--rose)}details p{margin:2px 0;font-size:1rem}
+.ph{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:10px}
+footer{padding:40px 22px 60px;background:var(--bg2);font-size:.9rem;color:var(--soft)}footer .script{font-size:2.4rem;display:block}
+</style></head><body>
+
+<div id="cover" onclick="openCard()"><small>You are invited</small>
+<div class="names script">Harshit<br><span style="font-size:.5em;color:var(--rose)">&amp;</span><br>Priyal</div>
+<div class="seal">प्र ह</div><small>Tap to open</small></div>
+
+<section id="hero">
+<small>With the blessings of our elders</small>
+<div class="big script" style="margin-top:18px">Harshit<span class="amp">&amp;</span>Priyal</div>
+<div class="orn"></div>
+<div class="date">20 &amp; 21 NOVEMBER 2026</div>
+<div style="margin-top:10px;letter-spacing:.14em">PANDORA GRAND · UDAIPUR</div>
+<a href="#welcome" style="margin-top:34px;color:var(--soft);text-decoration:none"><small>Scroll ↓</small></a></section>
+
+<section id="welcome" class="rv">
+<div class="hi">णमो अरिहंताणं<br>णमो सिद्धाणं<br>णमो आयरियाणं<br>णमो उवज्झायाणं<br>णमो लोए सव्व साहूणं</div>
+<h2 style="margin-top:34px">With the blessings of</h2>
+<div class="card"><small>Groom’s side</small><h3>Srimati Shanti Devi &amp; Shantilal Thakudiya</h3></div>
+<div class="card"><small>Bride’s side</small><h3>Late Shrimati Bhanwari Devi &amp; Shri Banshilal Ji Ratodiya</h3></div>
+<p style="color:var(--soft)">cordially invite you to celebrate the wedding of their beloved grandchildren</p></section>
+
+<section class="rv"><h2>Our families</h2>
+<div class="who script">Harshit</div><div class="sub">S/o Nisha &amp; Kuldeep Thakudiya</div>
+<div class="orn"></div><div class="script" style="font-size:2rem;color:var(--rose)">with</div>
+<div class="who script">Priyal <span style="font-size:.35em;font-family:Cormorant Garamond;color:var(--soft)">(C.A.)</span></div><div class="sub">D/o Shashi &amp; Praveen Ratodiya</div></section>
+
+<section class="rv"><h2>Scratch to reveal</h2><small>Use your finger to scratch the heart</small>
+<div class="scratch"><div class="under"><small>You’re invited</small><span class="script">20 &amp; 21 Nov</span><span>2026</span></div><canvas id="sc" width="260" height="240"></canvas></div>
+<div class="cd" id="cd"></div></section>
+
+<section class="rv"><h2>Celebrations</h2>
+<div class="card">
+<div class="day">Friday, 20 November</div>
+<div class="ev"><time>9:30 AM</time><div><b>Carnival</b><i>A morning of sunshine, laughter and endless blooms</i></div></div>
+<div class="ev"><time>12:30 PM</time><div><b>Mayra</b><i>Cherished traditions, love &amp; blessings</i></div></div>
+<div class="ev"><time>3:00 PM</time><div><b>Jinendra Darshan &amp; Mangal Kalash</b><i>Invoking divine blessings</i></div></div>
+<div class="ev"><time>5:30 PM</time><div><b>Sangeet</b><i>An evening of music, joy &amp; love</i></div></div>
+<div class="day">Saturday, 21 November</div>
+<div class="ev"><time>8:15 AM</time><div><b>Baraat · Var Nikasi</b><i>Two hearts, one beautiful beginning</i></div></div>
+<div class="ev"><time>10:30 AM</time><div><b>Baraat Swagat</b></div></div>
+<div class="ev"><time>12:15 PM</time><div><b>Pheras</b></div></div>
+<div class="ev"><time>5:15 PM</time><div><b>Reception</b><i>onwards</i></div></div>
+</div><p style="color:var(--soft);font-size:.95rem">Food arrangements are available at the venue on 21 November.</p></section>
+
+<section class="rv"><h2>Venue</h2>
+<div class="card"><h3>Pandora Grand</h3><div class="sub">Balicha, Udaipur</div>
+<a class="btn" href="https://www.google.com/maps/search/?api=1&query=Pandora%20Grand%20Balicha%20Udaipur%20Rajasthan" target="_blank" rel="noopener">View on Google Maps</a></div>
+<small style="display:block;margin-top:30px">For any assistance, please contact</small>
+<div class="card"><small>Groom’s side</small><div class="ph"><a class="btn o" href="tel:+919413318405">Kuldeep Jain</a><a class="btn o" href="tel:+919214826211">Bhupendra Jain</a></div>
+<small style="display:block;margin-top:18px">Bride’s side</small><div class="ph"><a class="btn o" href="tel:+919414170742">Praveen Jain</a><a class="btn o" href="tel:+918824898843">Nikunj Jain</a></div></div></section>
+
+<section class="rv"><h2>With love</h2><p>With hearts full of love and happiness, we are beginning a beautiful new chapter of our lives. Having our loved ones by our side would make the occasion truly complete.</p>
+<p>Your presence is not just an invitation — it is our maan, our manvar, and our happiness.</p>
+<h2 style="margin-top:34px">RSVP</h2><small>Hosts &amp; family</small>
+<div id="fam"></div></section>
+
+<footer><span class="script">Harshit &amp; Priyal</span>20 &amp; 21 . 11 . 2026<br><br>
+With best compliments from<br>Kuldeep Enterprises · KT Marbles<br>Priyal Marble Arts and Handicrafts · Prashi Heaven Retreat<br>Bhavna Marble Art Palace · Rishabh Mobile</footer>
+
+<script>
+function openCard(){document.getElementById('cover').classList.add('open')}
+// reveal
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.classList.add('in')})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+// petals
+for(var i=0;i<14;i++){var p=document.createElement('i');p.className='petal';p.style.left=Math.random()*100+'%';p.style.animationDuration=8+Math.random()*8+'s';p.style.animationDelay=-Math.random()*10+'s';document.getElementById('hero').appendChild(p)}
+// countdown to 20 Nov 2026 9:30 IST
+var T=new Date('2026-11-20T09:30:00+05:30');
+function tick(){var d=Math.max(0,T-new Date()),s=Math.floor(d/1000);var v=[['days',Math.floor(s/86400)],['hours',Math.floor(s%86400/3600)],['min',Math.floor(s%3600/60)],['sec',s%60]];
+document.getElementById('cd').innerHTML=v.map(function(x){return '<div><b>'+String(x[1]).padStart(2,'0')+'</b><small>'+x[0]+'</small></div>'}).join('')}
+tick();setInterval(tick,1000);
+// scratch heart
+(function(){var c=document.getElementById('sc'),x=c.getContext('2d'),heart=new Path2D('M130 225 C20 140 10 70 70 40 C100 25 120 40 130 60 C140 40 160 25 190 40 C250 70 240 140 130 225Z');
+var g=x.createLinearGradient(0,0,260,240);g.addColorStop(0,'#e0b25f');g.addColorStop(.5,'#f3d894');g.addColorStop(1,'#b8863b');x.fillStyle=g;x.fill(heart);
+x.fillStyle='#7a4a1f';x.font='italic 16px Cormorant Garamond,serif';x.textAlign='center';x.fillText('scratch here',130,125);
+x.globalCompositeOperation='destination-out';var down=false;
+function pos(e){var r=c.getBoundingClientRect(),t=e.touches?e.touches[0]:e;return[(t.clientX-r.left)*260/r.width,(t.clientY-r.top)*240/r.height]}
+function sc(e){if(!down)return;e.preventDefault();var p=pos(e);x.beginPath();x.arc(p[0],p[1],20,0,7);x.fill()}
+c.addEventListener('mousedown',function(){down=true});window.addEventListener('mouseup',function(){down=false});c.addEventListener('mousemove',sc);
+c.addEventListener('touchstart',function(e){down=true;sc(e)},{passive:false});c.addEventListener('touchmove',sc,{passive:false});c.addEventListener('touchend',function(){down=false})})();
+// family lists
+var F={"Groom’s side":[["Uttarakanshi",["Smt. Sheetal – Shri Bhupendra Thakudiya","Bhumika, Prachi & Aarjav Jain"]],["Swagat Karta",["Smt. Maya Devi Thakudiya","Shri Kunti Lal Thakudiya","Smt. Sunita – Shri Ravindra Thakudiya","Smt. Pratibha – Shri Pankaj Thakudiya","Smt. Shefali – Shri Siddharth Thakudiya","And the entire Thakudiya Family"]],["Darshanabhilashi",["Smt. Sohram Devi – Sva. Shri Vardichand Ji Kikawat","Smt. Sumitra Devi – Shri Babulal Ji Vaghawat","Smt. Chetna – Shri Rajendra Vora","Smt. Ranjana – Shri Dilip Bohra","Smt. Inisha – Shri Vikal Ji Lalawat"]],["Vishesh Aagraha",["Smt. Purva – Shri Hardik Vora","Smt. Shilpa – Shri Abhinandan Vora","Smt. Muskan – Shri Darshan Bohra","Akshat, Mansi & Devagya"]],["Nanihal Paksh",["Smt. Maya – Shri Suryakiran Dangra","Smt. Shashikala – Shri Manbhadra Dangra","Smt. Sunita – Shri Sushil Dangra","Smt. Shobha – Shri Pankaj Dangra","Smt. Rupal – Shri Jayesh Dangra","Smt. Nikita – Shri Anubhav Dangra","Henil, Daksh, Aadhya & Aarav","And the entire Dangra Family"]],["Sadu Paksh",["Smt. Shweta – Shri Anup Nayak","Smt. Namita – Shri Sarvesh Malviya","Purva, Yash, Manvee & Jeet"]],["Samdhi Pravar",["Shri Basantilal Ji","Shri Praveen Ji","Shri Nikunj Ji Ratodiya"]]],
+"Bride’s side":[["Swagatkarta (Welcoming Guests)",["Nikunj Jain"]],["Vishesh Aamantran",["Bhavana – Piyush Ji Patwari","Kinjal – Mayank Ji Sipriya","Sejal – Kaushal Ji Dhannawat","Tashvi, Kabir, Devansh, Amaysha"]],["Darshanabhilashi",["Vinod Ji","Mahavir Ji","Virendra Ji","Nilesh Ji","Samast Ratodiya Parivar"]],["Nanihal Paksh",["Late Smt. Kamla Ben – Late Shri Bhanwarlal Ji","Smt. Vanita – Shri Rishabh Ji","Smt. Sangeeta – Shri Kantilal Ji","Smt. Dhara – Shri Arun Ji","Smt. Surbhi – Shri Naresh Ji","Bhavin, Manan","Samast Jangda Parivar"]],["Swagatkarta (Hosts)",["Madhu – Mahendra","Hemlata – Rajendra","Lalita – Devendra","Lavi, Vaibhav, Harshil"]],["Saadu Paksh",["Smt. Sumitra – Shri Nirmal Ji Kothari","Smt. Sarika – Shri Praveen Ji","Smt. Sonal – Shri Rajesh Ji","Smt. Shilpa – Shri Ritesh Ji","Smt. Dipika – Shri Dhaval Ji"]],["Samdhi Paksh",["Shri Shantilal Ji","Kuldeep Ji","Bhupendra Ji Thakudiya (Jain)","Sector 11, Udaipur"]]]};
+document.getElementById('fam').innerHTML=Object.keys(F).map(function(k){return '<details><summary>'+k+'</summary>'+F[k].map(function(g){return '<h4>'+g[0]+'</h4>'+g[1].map(function(l){return '<p>'+l+'</p>'}).join('')}).join('')+'</details>'}).join('');
+</script></body></html>
